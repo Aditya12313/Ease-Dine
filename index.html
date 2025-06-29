@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ease-Dine</title>
+    <style>
+        .Welcome {
+            background-color: red;
+            color: gold;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .Log-in {
+            background-color: gold;
+            color: red;
+            font-size: larger;
+        }
+
+        .divgroup {
+            display: flex;
+        }
+
+        label {
+            width: 120px;
+            color: red;
+            font-weight: bold;
+        }
+
+        input {
+            flex: 1;
+            padding: 5px;
+        }
+
+        .footer {
+            background-color: red;
+            color: gold;
+            text-align: left;
+            font-size: small;
+        }
+
+        .footerright {
+            background-color: red;
+            color: gold;
+            text-align: right;
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="Welcome">
+        <p>WELCOME TO EASE-DINE</p>
+    </header>
+    <main class="Log-in" class="Price-table">
+        <p>
+            <img src="bidri-ambience.jpg" alt="" width="260" align="right">
+            <center><u>Welcome to <strong>EASE-DINE</strong></u> </center>
+        <section>
+            Why Choose Ease-Dine?
+
+            <br>
+            Ever wondered if the services at a restaurant be any faster and there shall be no waiting time in your
+            family time or <br>
+            your eating time? Here is where Ease-Dine comes into picture. Ease-Dine lets you book your table at any
+            desired <br>
+            restaurant and even order food or starters beforehand online. In this manner there will be no waiting time
+            outside of <br>
+            a particular restaurant and your food will be arriving at your table within minimum amount of time.
+            Ease-Dine also <br>
+            provides food delievery services and 10-minute delieveries of groceries.
+            This lets us be in your mind everytime you <br>think of food. <br> <br>
+
+
+            </p>
+        </section>
+        <section>
+            <hr color="red">
+            <p> <u>Login to enjoy your food at the earliest</u> </p>
+            <form action="menu.html" target="_blank">
+                <div class="divgroup">
+                    <label for="Name">Name </label>
+                    <input type="text" id="Name" name="Name" placeholder="Enter your name" required>
+                </div>
+                <div class="divgroup">
+                    <label for="E-mail">E-mail </label>
+                    <input type="text" name="E-mail" id="E-mail" placeholder="Enter your E-mail address" required>
+                </div>
+                <div class="divgroup">
+                    <label for="Password">Password </label>
+                    <input type="password" name="Password" id="Password" placeholder="Enter your Password" required>
+                </div>
+
+                <div class="divgroup">
+                    <label for="Phoneno.">Phone number</label>
+                    <input type="tel" name="Phoneno." id="Phoneno." placeholder="Enter your Phone number" required>
+                </div>
+                <hr color="#90EE90">
+                <div>
+                    <label for="location">Enter Your Location</label>
+                    <input type="text" name="location" id="location" placeholder="Your location in Hyderabad" required>
+                </div>
+
+        </section>
+        <hr color="red">
+        <section>
+            <div>
+                <p>Veg or Non-veg</p>
+                <label for="Veg">Veg</label>
+                <input type="radio" name="type" id="Veg" value="Veg">
+                <label for="Non-Veg"> Non-Veg</label>
+                <input type="radio" name="type" id="Non-Veg" value="Non-Veg">
+            </div>
+        </section>
+
+        <hr color="red">
+
+        <div>
+            <p>Select your preffered cuisine</p>
+            <label for="North-Indian">North-Indian</label>
+            <input type="checkbox" name="North-Indian" id="North-Indian">
+            <label for="South-Indian">South-Indian</label>
+            <input type="checkbox" name="South-Indian" id="South-Indian">
+            <label for="Chinese">Chinese</label>
+            <input type="checkbox" name="Chinese" id="Chinese">
+            <label for="Fast Food">Fast Food</label>
+            <input type="checkbox" name="Fast Food" id="Fast Food">
+
+        </div>
+        <div>
+
+            <input type="submit" value="Login" id="submit" name="submit" class="Log-in">
+        </div>
+        </form>
+ 
+
+
+    </main>
+    <footer class="footer">
+        <p><b><u>Contact us:</u></b> E-mail: easedine@restro.in Phone No.: 7941341703</p>
+        <p class="footerright">Follow us <a href="https://www.instagram.com/">Instagram</a></p>
+
+    </footer>
+</body>
+
+</html>
