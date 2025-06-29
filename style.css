@@ -1,0 +1,46 @@
+ .Welcome {
+            background-color: red;
+            color: gold;
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .Log-in {
+            background-color: gold;
+            color: red;
+            font-size: larger;
+        }
+
+        .divgroup {
+            display: flex;
+        }
+
+        label {
+            width: 120px;
+            color: red;
+            font-weight: bold;
+        }
+
+        input {
+            flex: 1;
+            padding: 5px;
+        }
+
+        .footer {
+            background-color: red;
+            color: gold;
+            text-align: left;
+            font-size: small;
+        }
+
+        .footerright {
+            background-color: red;
+            color: gold;
+            text-align: right;
+            font-size: small;
+        }
+         .Menu {
+            background-color: red;
+            color: gold;
+            font-size: x-large;
+        }
